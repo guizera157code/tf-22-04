@@ -1,1 +1,3 @@
 FROM mongo:windowsservercore-ltsc2025
+ENV POSTGRES_USER=admin
+ENV POSTGRES_PASSWORD=admin
